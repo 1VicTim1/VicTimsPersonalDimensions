@@ -1,0 +1,4 @@
+name: VicTimsPersonalDimensions
+version: '1.0-beta'
+main: org.exiled.vicTimsPersonalDimensions.VicTimsPersonalDimensions
+api-version: '1.21'
