@@ -1,4 +1,20 @@
 name: VicTimsPersonalDimensions
-version: '1.0-beta'
+version: 1.0
 main: org.exiled.vicTimsPersonalDimensions.VicTimsPersonalDimensions
-api-version: '1.21'
+commands:
+  is:
+    description: Управление персональными измерениями
+    usage: /is [create|tp|back|admin]
+permissions:
+  vicdims.create:
+    description: Позволяет создавать своё измерение
+    default: true
+  vicdims.tp:
+    description: Позволяет телепортироваться в своё измерение
+    default: true
+  vicdims.back:
+    description: Позволяет возвращаться из измерения
+    default: true
+  vicdims.admin:
+    description: Позволяет администрировать измерения (удалять, менять биом)
+    default: op

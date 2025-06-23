@@ -1,0 +1,14 @@
+# Основной мир для возврата
+main-world: world
+
+# Размер мира (диаметр барьера)
+world-size: 1000
+
+# Настройки базы данных
+database:
+  use-mysql: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: user
+  password: pass
